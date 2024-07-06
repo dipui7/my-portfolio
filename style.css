@@ -1,29 +1,43 @@
 body {
+  margin: auto;
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .orange {
   color: orange;
 }
 
-section {
+.flexible-container {
   display: flex;
+  padding-bottom: 150px;
 }
 
 .half-width {
   width: 50%;
   padding-left: 10%;
+  padding-right: 10%;
+}
+
+.half-width h1 {
+  padding-right: 0;
 }
 
 .half-width img {
   width: 120%;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.dream-big p {
+  margin-right: 100px;
 }
 
 .link-button {
@@ -33,4 +47,38 @@ section {
   color: white;
   font-weight: 400;
   border-radius: 5px;
+}
+
+.top-banner {
+  background-image: url(images/developer.png);
+  background-repeat: no-repeat;
+  background-size: 4%;
+}
+
+.dream-big {
+  background-image: url(images/developer.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 4%;
+}
+
+.experience-item {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  box-shadow: 10px 10px 40px gray;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+#fullstack {
+  border-left: 7px solid tomato;
+}
+
+#baby {
+  border-left: 7px solid blue;
+}
+
+footer p {
+  text-align: center;
 }
