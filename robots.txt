@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dipui7.github.io/my-portfolio/sitemap.xml
